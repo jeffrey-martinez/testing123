@@ -1,4 +1,4 @@
-view_name: liquid_remote {
+view: liquid_remote {
   
     dimension: date_period_start_date_comparison_period {
       sql: DATETIME_ADD(CURRENT_DATETIME(), INTERVAL -2
