@@ -59,14 +59,4 @@ view: liquid_remote {
         {% endif %}) ;;
     }
     
-    dimension: date_period_comparison_period {
-      hidden: yes
-      description: "Is the selected period (This Period) in the last two periods?"
-      type: yesno
-      group_label: "Event"
-      sql: ${date} >= ${date_period_start_date_comparison_period} ;;
-    }
-    
-    
-  
   }
