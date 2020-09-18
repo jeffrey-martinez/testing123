@@ -63,7 +63,7 @@ view: liquid_remote {
       description: "Is the selected period (This Period) in the last two periods?"
       type: yesno
       group_label: "Event"
-      sql: ${_date} >= ${date_period_start_date_comparison_period} ;;
+      sql: ${date} >= ${date_period_start_date_comparison_period} ;;
     }
     
     
