@@ -1,4 +1,5 @@
 view: liquid_remote {
+    extension: required
 
     parameter: period {
       description: "Prior Period for Comparison"
